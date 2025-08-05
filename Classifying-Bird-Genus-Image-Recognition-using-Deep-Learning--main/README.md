@@ -2,16 +2,13 @@
   <img src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/external-readme-is-a-easy-to-build-a-developer-hub-that-adapts-to-the-user-logo-regular-tal-revivo.png" width="100" />
 </p>
 <p align="center">
-    <h1 align="center">CLASSIFYING-BIRD-GENUS-IMAGE-RECOGNITION-USING-DEEP-LEARNING-</h1>
+    <h1 align="center">BIRD-SPECIES-DETECTION</h1>
 </p>
-<!-- <p align="center">
-    <em>HTTP error 429 for prompt `slogan`</em>
-</p> -->
+
 <p align="center">
-	<!-- <img src="https://img.shields.io/github/license/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-?style=flat&color=0080ff" alt="license"> -->
-	<img src="https://img.shields.io/github/last-commit/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-?style=flat&color=0080ff" alt="repo-language-count">
+	<img src="https://img.shields.io/github/last-commit/sowmyapavani03/BIRD-SPECIES-DETECTION?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/sowmyapavani03/BIRD-SPECIES-DETECTION?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/sowmyapavani03/BIRD-SPECIES-DETECTION?style=flat&color=0080ff" alt="repo-language-count">
 <p>
 <p align="center">
 		<em>Developed with the software and tools below.</em>
@@ -25,23 +22,22 @@
 
 ## 🔗 Quick Links
 
-> - [📍 Overview](#-overview)
-> - [📦 Features](#-features)
-> - [📂 Repository Structure](#-repository-structure)
-> - [🧩 Modules](#-modules)
-> - [📊 Model Performance](#-model-performance)
-> - [🚀 Getting Started](#-getting-started)
->   - [⚙️ Installation](#️-installation)
->   - [🤖 Running Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-](#-running-Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-)
->   - [🧪 Tests](#-tests)
-> - [🛠 Project Roadmap](#-project-roadmap)
-> - [🤝 Contributing](#-contributing)
+> - [📍 Overview](#-overview)  
+> - [📦 Features](#-features)  
+> - [📂 Repository Structure](#-repository-structure)  
+> - [🧩 Modules](#-modules)  
+> - [📊 Model Performance](#-model-performance)  
+> - [🚀 Getting Started](#-getting-started)  
+>   - [⚙️ Installation](#️-installation)  
+>   - [🤖 Running](#-running-classifying-bird-genus-image-recognition-using-deep-learning-)  
+>   - [🧪 Tests](#-tests)  
+> - [🛠 Project Roadmap](#-project-roadmap)  
+> - [🤝 Contributing](#-contributing)  
 > - [👏 Acknowledgments](#-acknowledgments)
 
 ---
 
 ## 📍 Overview
-
 
 This project focuses on classifying bird images into their respective genera using deep learning techniques. It employs convolutional neural networks (CNNs) to achieve high accuracy in image recognition tasks. The repository includes scripts for data preprocessing, model training, and evaluation, as well as utilities for visualizing results. By leveraging TensorFlow and other Python libraries, the project provides a comprehensive approach to tackling image classification challenges in the context of ornithology. The ultimate goal is to aid in the automatic identification and classification of bird species based on visual data.
 
@@ -60,15 +56,15 @@ This project focuses on classifying bird images into their respective genera usi
 ## 📂 Repository Structure
 
 ```sh
-└── Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-/
+└── BIRD-SPECIES-DETECTION/
     ├── birds-classification-using-tflearning (1).ipynb
     ├── deploy.py
     ├── main.py
-    ├── static
+    ├── static/
     │   ├── Bird.jpeg
     │   ├── birds-background.jpg
     │   └── temp_img.jpg
-    └── templates
+    └── templates/
         └── main.html
 ```
 
@@ -80,9 +76,9 @@ This project focuses on classifying bird images into their respective genera usi
 
 | File                                                                                                                                                                                                          | Summary                                                                     |
 | ---                                                                                                                                                                                                           | ---                                                                         |
-| [main.py](https://github.com/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-/blob/master/main.py)                                                                                 | `main.py` initializes the Flask web application, loads the trained model, and handles image uploads for bird genus classification. It processes the input images, makes predictions, and displays the results on a user-friendly web interface.                                         |
-| [birds-classification-using-tflearning (1).ipynb](https://github.com/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-/blob/master/birds-classification-using-tflearning (1).ipynb) | This Jupyter notebook demonstrates the complete workflow for classifying bird genera using TensorFlow. It includes steps for data loading, preprocessing, building and training the CNN model, and evaluating its performance. Additionally, it provides visualizations of the training process and model predictions. `birds-classification-using-tflearning (1).ipynb` |
-| [deploy.py](https://github.com/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-/blob/master/deploy.py)                                                                             |`deploy.py` prepares and deploys the trained bird genus classification model as a web service. It sets up the necessary endpoints for model inference, allowing users to send image data and receive classification results via HTTP requests. The script ensures that the model can be accessed and used for predictions in a production environment.                                      |
+| [main.py](https://github.com/sowmyapavani03/BIRD-SPECIES-DETECTION/blob/master/main.py)                                                                                 | Flask backend handling prediction workflow.                                         |
+| [birds-classification-using-tflearning (1).ipynb](https://github.com/sowmyapavani03/BIRD-SPECIES-DETECTION/blob/master/birds-classification-using-tflearning%20(1).ipynb) | Jupyter notebook for training, evaluation, and visualization. |
+| [deploy.py](https://github.com/sowmyapavani03/BIRD-SPECIES-DETECTION/blob/master/deploy.py)                                                                             | Script to deploy model via API.                                      |
 
 </details>
 
@@ -90,14 +86,13 @@ This project focuses on classifying bird images into their respective genera usi
 
 | File                                                                                                                                        | Summary                                         |
 | ---                                                                                                                                         | ---                                             |
-| [main.html](https://github.com/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-/blob/master/templates/main.html) |`main.html` is the core HTML template for the Flask web application. It provides the user interface for uploading bird images, submitting them for classification, and displaying the predicted genus along with confidence scores. The template includes forms for file upload, buttons for interaction, and sections to show the results and any relevant messages. |
+| [main.html](https://github.com/sowmyapavani03/BIRD-SPECIES-DETECTION/blob/master/templates/main.html) | User interface for image upload and results. |
 
 </details>
 
 ---
-## 📊 Model Performance
 
-These metrics indicate that the model is both precise and robust in classifying bird genus images, effectively balancing precision and recall.
+## 📊 Model Performance
 
 | Metric      | Value   |
 |-------------|---------|
@@ -107,45 +102,30 @@ These metrics indicate that the model is both precise and robust in classifying 
 | F1 Score    | 0.90    |
 
 ---
+
 ## 🚀 Getting Started
 
 ***Requirements***
 
-Ensure you have the following dependencies installed on your system:
+Ensure you have the following installed:
 
 * **Python**: `version x.y.z`
 
 ### ⚙️ Installation
 
-1. Clone the Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning- repository:
-
 ```sh
-git clone https://github.com/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-
-```
-
-2. Change to the project directory:
-
-```sh
-cd Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-
-```
-
-3. Install the dependencies:
-
-```sh
+git clone https://github.com/sowmyapavani03/BIRD-SPECIES-DETECTION
+cd BIRD-SPECIES-DETECTION
 pip install -r requirements.txt
 ```
 
 ### 🤖 Running Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-
-
-Use the following command to run Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-:
 
 ```sh
 python main.py
 ```
 
 ### 🧪 Tests
-
-To execute tests, run:
 
 ```sh
 pytest
@@ -188,45 +168,43 @@ pytest
 - Develop a deployment pipeline (e.g., Flask API).
 - Prepare documentation and user guide.
 - Deploy the model and monitor for real-world performance.
+
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here are several ways you can contribute:
+Contributions are welcome!
 
-- **[Submit Pull Requests](https://github.com/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://github.com/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-/issues)**: Submit bugs found or log feature requests for Classifying-bird-genus-image-recognition-using-deep-learning-.
+- **[Submit Pull Requests](https://github.com/sowmyapavani03/BIRD-SPECIES-DETECTION/blob/main/CONTRIBUTING.md)**
+- **[Join the Discussions](https://github.com/sowmyapavani03/BIRD-SPECIES-DETECTION/discussions)**
+- **[Report Issues](https://github.com/sowmyapavani03/BIRD-SPECIES-DETECTION/issues)**
 
 <details closed>
     <summary>Contributing Guidelines</summary>
 
-1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
-   ```sh
-   git clone https://github.com/vasanth-boyez/Classifying-Bird-Genus-Image-Recognition-using-Deep-Learning-
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to GitHub**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-
-Once your PR is reviewed and approved, it will be merged into the main branch.
+1. **Fork the Repository**  
+2. **Clone Locally**  
+```sh
+git clone https://github.com/sowmyapavani03/BIRD-SPECIES-DETECTION
+```
+3. **Create a New Branch**  
+```sh
+git checkout -b new-feature-x
+```
+4. **Make Your Changes**  
+5. **Commit Your Changes**  
+```sh
+git commit -m 'Implemented new feature x.'
+```
+6. **Push to GitHub**  
+```sh
+git push origin new-feature-x
+```
+7. **Submit a Pull Request**
 
 </details>
 
 ---
-
 
 ## 👏 Acknowledgments
 
